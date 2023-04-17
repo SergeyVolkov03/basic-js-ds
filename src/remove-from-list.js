@@ -45,9 +45,7 @@ function removeKFromList(l, k) {
         return l;
       }
     }
-    console.log(currentNode);
     currentNode = currentNode.next;
-    console.log(currentNode);
   }
   return l;
 }
